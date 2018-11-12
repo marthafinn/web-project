@@ -1,9 +1,9 @@
 header {
   font-size: 60px;
-color: white;
-text-align: center;
-background: url('https://tctechcrunch2011.files.wordpress.com/2015/04/codecode.jpg?crop');
-margin: 100px 100px 100px 100px;
+  color: white;
+  text-align: center;
+  background: url('https://tctechcrunch2011.files.wordpress.com/2015/04/codecode.jpg?crop');
+  margin: 100px 100px 100px 100px;
 }
 ul {
   color: blue;
@@ -13,6 +13,7 @@ ul {
 }
 li{
   padding: 0px 10px 0px 10px
+  display: inline
 }
 body {
   background: pink;
