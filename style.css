@@ -14,10 +14,8 @@ ul {
   font-size: 40px
 }
 li{
-
   padding: 0px 10px 0px 10px;
   display: inline;
-
 }
 h1 {
   color: orange;
@@ -28,13 +26,12 @@ h1 {
 body {
   background-color: rgb(212, 233, 130);
 }
-@media (max-width: 450px) {
-  ul {
-    background: url('https://www.journalism.co.uk/assets/132/technology-1283624_1280.1.jpg_resized_620_.jpeg');
-    color: rgba(193, 168, 219);
-    font-size: 20px;
+@media (max-width: 500px) {
+  li{
+    display: block;
   }
 }
+
 p{
   color: red;
   text-align: center;
