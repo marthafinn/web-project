@@ -15,7 +15,8 @@ li{
   padding: 0px 10px 0px 10px
 }
 body {
-  background: pink;
+  background: url('https://o.aolcdn.com/images/dims3/GLOB/crop/5760x2880+0+480/resize/630x315!/format/jpg/quality/85/http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F1e6a11c0ceb369bee739518f2618916d%2F205881769%2Fhealth-food-for-fitness-picture-id855098134');
+background-repeat: no-repeat;
 }
 @media (max-width: 450px) {
   ul {
