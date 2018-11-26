@@ -1,20 +1,30 @@
 header {
   font-size: 60px;
+
 color: white;
 text-align: center;
-background: url('https://tctechcrunch2011.files.wordpress.com/2015/04/codecode.jpg?crop');
+background-color: url('https://o.aolcdn.com/images/dims3/GLOB/crop/5760x2880+0+480/resize/630x315!/format/jpg/quality/85/http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F1e6a11c0ceb369bee739518f2618916d%2F205881769%2Fhealth-food-for-fitness-picture-id855098134');
 margin: 100px 100px 100px 100px;
+
 }
 ul {
-  color: blue;
-  text-align:center;
+  color: orange;
+  text-align: center;
   padding: 10px;
   font-size: 40px
 }
 li{
-  padding: 0px 10px 0px 10px
+  padding: 0px 10px 0px 10px;
+  display: inline;
+}
+h1 {
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px
 }
 body {
+
   background: url('https://o.aolcdn.com/images/dims3/GLOB/crop/5760x2880+0+480/resize/630x315!/format/jpg/quality/85/http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F1e6a11c0ceb369bee739518f2618916d%2F205881769%2Fhealth-food-for-fitness-picture-id855098134');
 background-repeat: no-repeat;
 background-size: cover;
@@ -24,8 +34,10 @@ background-size: cover;
     background: url('https://www.journalism.co.uk/assets/132/technology-1283624_1280.1.jpg_resized_620_.jpeg');
     color: rgba(193, 168, 219);
     font-size: 20px;
+
   }
 }
+
 p{
   color: red;
   text-align: center;
@@ -33,5 +45,5 @@ p{
   font-size: 25px;
 }
 header {
-  color: pink
+  color: rgb(117, 130, 69);
 }
