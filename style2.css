@@ -1,0 +1,16 @@
+header {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+margin: 100px 100px 100px 100px;
+}
+ul {
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px
+}
+li{
+  padding: 0px 10px 0px 10px;
+  display: inline;
+}
