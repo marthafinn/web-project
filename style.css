@@ -1,32 +1,75 @@
-header {
-  font-size: 60px;
-color: white;
-text-align: center;
-background: url('https://tctechcrunch2011.files.wordpress.com/2015/04/codecode.jpg?crop');
-margin: 100px 100px 100px 100px;
+.sidenav, .dropdown {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
-ul {
-  color: blue;
-  text-align:center;
-  padding: 10px;
-  font-size: 40px
-}
-li{
-  padding: 0px 10px 0px 10px
-}
-body {
-  background: pink;
-}
-@media (max-width: 450px) {
-  ul {
-    background: url('https://www.journalism.co.uk/assets/132/technology-1283624_1280.1.jpg_resized_620_.jpeg');
-    color: rgba(193, 168, 219);
+
+.sidenav a, .dropdown-btn {
+    font-family: Georgia, serif;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    border: none;
     font-size: 20px;
-  }
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    background: none;
+    outline: none;
+    cursor: pointer;
 }
+
+.sidenav a:hover, .dropdown-btn:hover {
+    color:white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.dropdown-container {
+    display: none;
+    background-color:#262626;
+    padding-left: 8px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+span{
+  font-size: 36px;
+  color:white;
+}
+
+.fa fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+body{
+  background:url("https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a6b0310eb727b3d5fb2b80b952c7414&auto=format&fit=crop&w=934&q=80");
+  background-position: center;
+}
+
+ h1{
+  font-size: 80px;
+  color: white;
+}
+
 p{
-  color: red;
-  text-align: center;
-  font-family: verdana;
-  font-size: 25px;
+  color: white;
+  margin: 0px 0px 0px -3px;
 }
