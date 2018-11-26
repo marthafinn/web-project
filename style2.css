@@ -1,22 +1,35 @@
 header {
   font-size: 60px;
+  background-color: orange;
   color: white;
   text-align: center;
 margin: 100px 100px 100px 100px;
 }
 ul {
-  color: orange;
-  text-align: center;
+  color: black;
+  font-size: 20px;
+  text-align: left;
   padding: 10px;
-  font-size: 40px
 }
-li{
-  padding: 0px 10px 0px 10px;
-  display: inline;
-}
-
-p {
-  font-size: 16px;
+h1 {
+  text-align: center;
   font: arial;
 }
-
+h2 {
+  text-align: center;
+  font: arial;
+  font-size: 26px;
+}
+p {
+  font-size: 20px;
+  font: arial;
+  text-align: left;
+}
+ol {
+  font-size: 20px;
+  font: arial;
+  text-align: left;
+}
+body {
+  background-color: orange;
+}
