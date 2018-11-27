@@ -41,3 +41,15 @@ ol {
 body {
   background-color: orange;
 }
+
+
+@media (max-width: 450px) {
+  body {
+    font-size: 15px;
+    background-color: tomato;
+  }
+  img {
+  width: 150;
+  height: 100;
+  }
+}

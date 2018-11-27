@@ -23,8 +23,6 @@ h1 {
 }
 body {
   background-color: url("Images/food-spread.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 @media (max-width: 450px) {
   ul {
