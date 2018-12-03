@@ -2,7 +2,6 @@ header {
   font-size: 60px;
   color: white;
   text-align: center;
-  background-image: url("Images/food-spread.jpg");
   margin: 100px 100px 100px 100px;
 }
 ul {
@@ -15,10 +14,13 @@ li{
   padding: 0px 10px 0px 10px;
   display: inline;
 }
+img {
+  padding-left: 450px;
+}
 h1 {
   color: orange;
   text-align: center;
-  padding: 10px;
+  padding: 10px 0px 10px 0px;
   font-size: 40px
 }
 body {

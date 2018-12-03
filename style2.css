@@ -12,47 +12,59 @@ ul {
   padding: 10px 60px 10px 60px;
 }
 body {
-    background-color: black;
-     color: gray;
+    background-color: LightGray;
+     color: LightGray;
+     font-family: "Times New Roman", Times, serif;
+}
+img {
+  margin: auto;
+  position: center;
+  width: auto;
+  image: center;
 }
 
 h1 {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
-  font-size: 75px;
-  color: #aaaaaa;
-  margin: 60px 0 0 0;
+  font-size: 50px;
+  color: black;
+  margin: 0 20 0 20;
 }
 h2 {
-  text-align: center;
-  color: #bbbbbb;
-  font-size: 50px;
-  margin: 0px 0 70px 0;
+  text-align: left;
+  color: black;
+  font-size: 40px;
+  margin: 70px 20 20px 20;
+  padding-left: 100px;
 }
 
 h3 {
   text-align: left;
+  padding-left: 100px;
+  color: black;
   font: arial;
   font-size: 26px;
-  padding: 10px 60px 10px 60px;
+  margin: inherit;
 }
 h4 {
-  10px 40px 10px 40px
+  padding: 10px 40px 10px 40px;
+  padding-left: 100px;
   text-align: left;
   font: arial;
   font-size: 26px;
+  color: white;
 }
 ol {
   font-size: 20px;
   font-weight: normal;
   font: arial;
   text-align: left;
-  color: gray;
+  color: black;
   padding: 10px 60px 10px 60px;
 }
 
 ul {
-  color: grey;
+  color: black;
   text-align: left;
   padding: 10px 60px 10px 60px;
 }
@@ -74,7 +86,6 @@ img {
 
 }
 p {
-
   background: black;
 }
 }
